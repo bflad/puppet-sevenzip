@@ -1,0 +1,11 @@
+---
+:hierarchy:
+    # START - TEMPORARY FIX until Puppetlabs releases Vagrant box with Puppet 3.2+
+    - sevenzip/common
+    # END - TEMPORARY FIX until Puppetlabs releases Vagrant box with Puppet 3.2+
+    # - %{calling_module}/common
+    - common
+:backends:
+    - yaml
+:yaml:
+    :datadir: 'data'

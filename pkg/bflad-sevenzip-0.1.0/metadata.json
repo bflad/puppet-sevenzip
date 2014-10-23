@@ -1,0 +1,56 @@
+{
+  "name": "bflad-sevenzip",
+  "version": "0.1.0",
+  "author": "Brian Flad",
+  "summary": "7-zip module",
+  "license": "Apache 2.0",
+  "source": "git://github.com/bflad/puppet-sevenzip.git",
+  "project_page": "http://github.com/bflad/puppet-sevenzip",
+  "issues_url": "https://github.com/bflad/puppet-sevenzip/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.2.0 < 3.4.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "description": "7-zip module",
+  "dependencies": [
+    {"name":"stahnma/epel","version_requirement":">= 0.0.6"}
+  ]
+}
